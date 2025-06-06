@@ -26,14 +26,6 @@ const MobileNav = () => {
           </SheetTitle>
         </SheetHeader>
         <div className="px-4">
-          {/* <div className=" items-center gap-4 flex flex-col mb-4">
-            <Button size="sm" variant="outline" className="w-full">
-              <Link href="/login">Login</Link>
-            </Button>
-            <Button size="sm" className="w-full">
-              <Link href="/signup">Sign Up</Link>
-            </Button>
-          </div> */}
           <AuthButtons direction="col" />
           <ul
             className="flex flex-col gap-y-6 mt-4
